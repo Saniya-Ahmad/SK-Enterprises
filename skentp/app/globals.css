@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.nav-item {
+  margin-right: 3rem;
+}
+.custom-btn{
+  text-decoration: none;
+  border-radius: .5rem;
+  padding: 0 1rem 0 1rem !important;
+  margin: 0 1rem 0 1rem !important; 
+  
+}
+.nav-link {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+  font-weight: 400;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #1967e3; 
+  font-weight: 600;
+}
+.dropdown-item{
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+.dropdown-item:hover{
+   border-bottom: 2px solid #1967e3; 
+}
