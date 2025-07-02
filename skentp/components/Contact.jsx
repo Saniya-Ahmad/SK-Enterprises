@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Contact() {
-    // Dummy handler and result for demonstration
+    //Dummy function for form submission
     const onSubmit = (e) => {
         e.preventDefault();
-        // handle form submit
+        
     };
     const result = "";
 
