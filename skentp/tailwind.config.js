@@ -14,11 +14,14 @@ module.exports = {
    },
    colors: 
     { 'forest-green': '#1c594b' ,
-      // {'golden' :'#e0b407'},
+      'golden' :'#e0b407',
     },
     
    
   },
   
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 }
