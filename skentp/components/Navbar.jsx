@@ -89,13 +89,13 @@ import { useRef,useEffect,useState } from 'react';
 </ul>
         {/* mobile-menu-icons */}
 
-        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-0 top-0 bottom-0
-        w-64 z-50 h-screen bg-indigo-900 transition duration-500 text-white  '>
+        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0
+        w-64 z-50 h-screen bg-white transition duration-500 text-white  '>
           <button className='absolute right-6 top-6 cursor-pointer' onClick={closeMenu}>
           <RxCross1  onClick={closeMenu} />
           </button>
-          <li><a href='#top' className="text-black no-underline border-b-0 hover:border-b-2 hover:border-forest-green transition"onClick={closeMenu}>Home</a></li>
-            <li><a href='#about' className="text-black no-underline border-b-0 hover:border-b-2 hover:border-forest-green transition"onClick={closeMenu}>About us</a></li>
+          <li><a href='#top' className="text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition"onClick={closeMenu}>Home</a></li>
+            <li><a href='#about' className="text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition"onClick={closeMenu}>About us</a></li>
 
             <li><a href='#work' className="text-black no-underline border-b-0 hover:border-b-2 hover:border-forest-green transition"onClick={closeMenu}>Product and Services</a></li>
 
