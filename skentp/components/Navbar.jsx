@@ -18,41 +18,41 @@ const Navbar = () => {
   }, []);
 
   return (
-    <>
-      <div className='fixed top-0 right-0 w-11/12 z-50 translate-y-[-80%] mt-2'>
-        <nav
-          className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-2 
-            flex items-center justify-between z-50 ${isScroll ? "bg-white  bg-blur-lg shadow-sm" : ""}`}
+    
+  <div className='bg-white z-50'>
+    <div className='fixed top-0 right-0 w-full z-50'>
+      <nav
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-2 
+          flex items-center justify-between z-50 bg-white ${isScroll ? "shadow-sm" : ""}`}
+      >
+        <ul>
+          <a href="#top" className="no-underline ms-auto font-bold text-black">
+            <h2>Sahil Enterprises</h2>
+          </a>
+        </ul>
+        <ul
+          className="hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 bg-white"
         >
-          <ul>
-            <a href="#top" className="no-underline ms-auto font-bold text-black">
-              <h2>Sahil Enterprises</h2>
+          <li>
+            <a href='#top' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Home</a>
+          </li>
+          <li>
+            <a href='#about' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>About us</a>
+          </li>
+          <li>
+            <a href='#work' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>
+              Product and Services
             </a>
-          </ul>
-          <ul
-            className={`hidden md:flex items-center gap-6 lg:gap-8 
-              px-12 py-3  ${isScroll ? "" : "bg-white "}`}
-          >
-            <li>
-              <a href='#top' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Home</a>
-            </li>
-             <li>
-              <a href='#about' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>About us</a>
-            </li>
-            <li>
-              <a href='#work' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>
-                Product and Services
-              </a>
-            </li>
-          
-           
-            <li>
-              <a href='#contact' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Contact us</a>
-            </li>
-            <li>
-              <a href="/sahil-enterprises.pdf" download className="bg-forest-green text-white font-semibold py-2.5 px-4 rounded no-underline">Brouchure</a>
-            </li>
-          </ul>
+          </li>
+          <li>
+            <a href='#contact' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Contact us</a>
+          </li>
+          <li>
+            <a href="/sahil-enterprises.pdf" download className="bg-forest-green text-white font-semibold py-2.5 px-4 rounded no-underline">Brouchure</a>
+          </li>
+        </ul>
+        
+   
 
           {/* Mobile menu */}
           <ul
@@ -82,7 +82,7 @@ const Navbar = () => {
           )}
         </nav>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -51,7 +51,7 @@ const cards = [
 ]
 function ProductandServices() {
   return (
-    <div className='w-11/12 max-w-4xl text-center mx-auto h-screen flex flex-col justify-center gap-4 relative'>
+    <div id='work' className='w-11/12 max-w-4xl text-center mx-auto h-screen flex flex-col justify-center gap-4 relative'>
       <h2 className='text-center'>Product And Services</h2>
 
       <button
