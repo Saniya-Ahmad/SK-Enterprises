@@ -2,9 +2,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div id='#top' className="mt-24 bg-forest-green py-16 flex flex-col items-center justify-center text-center">
+    <div
+      id="top"
+      className="mt-24 bg-forest-green py-16 flex flex-col items-center justify-center text-center"
+    >
       <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
-        Welcome to <span className="text-golden">Sahil Enterprises</span>
+        Welcome to{" "}
+        <span className="text-golden animate-pulse">Sahil Enterprises</span>
       </h1>
       <h2 className="text-xl md:text-2xl text-white mb-6 font-semibold">
         Official Website

@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import '/app/globals.css';
 import { CiMenuFries } from "react-icons/ci";
@@ -34,7 +35,7 @@ const Navbar = () => {
           className="hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 bg-white"
         >
           <li>
-            <a href='#top' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Home</a>
+            <a href='/' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>Home</a>
           </li>
           <li>
             <a href='#about' className='text-black no-underline border-b-0 hover:border-b-4 hover:border-forest-green transition'>About us</a>
@@ -63,7 +64,7 @@ const Navbar = () => {
               <RxCross1 size={28} />
             </button>
             <li>
-              <a href='#top' className="text-white no-underline border-b-0 hover:border-b-4 hover:border-white transition" onClick={() => setMenuOpen(false)}>Home</a>
+              <a href='/' className="text-white no-underline border-b-0 hover:border-b-4 hover:border-white transition" onClick={() => setMenuOpen(false)}>Home</a>
             </li>
             <li>
               <a href='#about' className="text-white no-underline border-b-0 hover:border-b-4 hover:border-white transition" onClick={() => setMenuOpen(false)}>About us</a>

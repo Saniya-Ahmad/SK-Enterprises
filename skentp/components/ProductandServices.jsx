@@ -11,29 +11,29 @@ const cards = [
   },
   {
     img: "/images/hdpe-drum-scrap-2.png",
-    label: "HDPE Drum Scrap-2"
+    label: "HDPE Multicolor Drum Scrap"
   },
   
   {
     img: "/images/hdpe-crate-scrap.png",
-    label: "HDPE Crate Scrap-1"
+    label: "HDPE Cream Crate Scrap"
   },
   {
     img: "/images/hdpe-crate-scrap-2.png",
-    label: "HDPE Crate Scrap-2"
+    label: "HDPE Light Green Crate Scrap"
   },
   
   {
     img: "/images/hdpe-crates-scrap-3.png",
-    label: "HDPE Crate Scrap-3"
+    label: "HDPE Multicolor Crate Scrap "
   },
   {
     img: "/images/hdpe-crate-scrap-4.png",
-    label: "HDPE Crate Scrap-4"
+    label: "HDPE Green Crate Scrap"
   },
   {
     img: "/images/hdpe-create-scrap.png",
-    label: "HDPE Crate Scrap-5"
+    label: "HDPE Bluw Drum Scrap"
   },
   {
     img: "/images/drum.png",
@@ -52,7 +52,7 @@ const cards = [
 function ProductandServices() {
   return (
     <div id='work' className='w-11/12 max-w-4xl text-center mx-auto h-screen flex flex-col justify-center gap-4 relative'>
-      <h2 className='text-center'>Product And Services</h2>
+      <h2 className='text-3xl md:text-4xl font-bold  mb-4 tracking-tight drop-shadow-sm'>Product And Services</h2>
 
       <button
         className="swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-forest-green text-white border border-forest-green rounded-full p-3 shadow-md hover:bg-white hover:text-forest-green hover:cursor-pointer transition"

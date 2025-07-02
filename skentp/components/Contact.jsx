@@ -10,7 +10,7 @@ function Contact() {
 
     return (
         <div id='contact' className='mt-24'>
-            <h1 className='text-center mb-8'>Contact Us</h1>
+            <h1 className=' text-center text-3xl md:text-4xl font-bold  mb-4 tracking-tight drop-shadow-sm'>Contact Us</h1>
             <div className="w-full px-[12%] py-10 scroll-mt-20 bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto]">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
                     {/* Reach Us */}
